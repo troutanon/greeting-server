@@ -18,6 +18,7 @@ public class GreetingController {
     private static final Map<String, String> GREETINGS_BY_LANGUAGE = new HashMap<>();
 
     static {
+        GREETINGS_BY_LANGUAGE.put("bulgarian", "Здравей!");
         GREETINGS_BY_LANGUAGE.put("english", "Hello!");
     }
 
