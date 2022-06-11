@@ -23,6 +23,7 @@ public class GreetingController {
         GREETINGS_BY_LANGUAGE.put("italian", "Ciao!");
         GREETINGS_BY_LANGUAGE.put("korean", "여보세요!");
         GREETINGS_BY_LANGUAGE.put("spanish", "¡Hola!");
+        GREETINGS_BY_LANGUAGE.put("vietnamese", "Xin chào!");
     }
 
     @GetMapping("/{lang}")
