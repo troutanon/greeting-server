@@ -1,4 +1,3 @@
-# greeting-server
 **Useful Information:** <br />
 https://www.jetbrains.com/teamcity/ <br />
 https://www.jetbrains.com/teamcity/learn/ <br />
