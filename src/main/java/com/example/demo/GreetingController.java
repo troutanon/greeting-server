@@ -22,7 +22,7 @@ public class GreetingController {
     }
 
     @GetMapping("/{lang}")
-    public ResponseEntity<String> greetInEnglish(@PathVariable String lang) {
+    public ResponseEntity<String> greet(@PathVariable String lang) {
         String lowerCaseLang = lang.toLowerCase();
         log.info("Greeting request for lang: {}. Search term: {}", lang, lowerCaseLang);
 
